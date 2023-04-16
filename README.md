@@ -12,3 +12,13 @@ It implements clean architecture throughout the project.
 * React
 * Firebase Authentication
 * Firebase Firestore
+
+## Installation
+1. To install and run this project on your local machine, follow these steps:
+
+1. Clone this repository onto your machine
+2. Navigate to the project directory in your terminal
+3. Run npm install to install all the required dependencies
+
+4. Create a Firebase project and configure it to use Firestore and Authentication
+
