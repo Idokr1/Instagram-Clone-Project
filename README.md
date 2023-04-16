@@ -22,11 +22,8 @@ To install and run this project on your local machine, follow these steps:
 4. Create a Firebase project, create Email Authentication, add the users from the seed.js file (existing email and a password you choose)
 5. Copy the new userIds from the Authentication page and change the userIds in seed.js file
 6. Go to "Web" on your Firebase's main page, copy the config data and pase it in the const config in the src/lib/service-lib.js file
-7. Uncommnet the following two lines of code:
-seedDatabase(firebase)
-import { seedDatabase } from "../seed"
-
-
-
-Run 'npm start' to start the project on your local machine
-
+7. Uncommnet the following two lines of code to seed the database (only once):
+* seedDatabase(firebase)
+* import { seedDatabase } from "../seed"
+8. Run 'npm start' to start the project on your local machine
+9. Make sure you comment/delete the two lines of code in section 7 before running the project again
